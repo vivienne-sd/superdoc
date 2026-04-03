@@ -251,6 +251,7 @@ export default defineConfig(({ mode, command }) => {
     server: {
       port: 9094,
       host: '0.0.0.0',
+      allowedHosts: true,
       fs: {
         allow: [
           path.resolve(__dirname, '../super-editor'),
